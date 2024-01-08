@@ -4,7 +4,7 @@ from translation import Translation
 
 class Config:
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", None)
+    TG_BOT_TOKEN = "6959192861:AAEbLo2vUYIJHBIa3xM4c5xmWVRUNAHkzgs"
     # required for running on Heroku
     URL = os.environ.get("URL", "")
     PORT = int(os.environ.get("PORT", 5000))
@@ -12,9 +12,9 @@ class Config:
     CHUNK_SIZE = 10280
     # MyTelegram.org
     # configurtion required while creating new application
-    APP_TITLE = os.environ.get("APP_TITLE", "Lunatic0de")
-    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "Lunatic0de")
-    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/scrapmanbot")
+    APP_TITLE = os.environ.get("APP_TITLE", "Scrapper")
+    APP_SHORT_NAME = os.environ.get("APP_SHORT_NAME", "Scrapper")
+    APP_URL = os.environ.get("APP_URL", "https://telegram.dog/AliveAnt_MusicBot")
     # these platform informations were obtained
     # on 27.01.2020 21:15:50 IST
     APP_PLATFORM = [
@@ -32,10 +32,10 @@ class Config:
     # https://github.com/SpEcHiDe/MyTelegramOrgRoBot/issues/3
     APP_DESCRIPTION = os.environ.get(
         "APP_DESCRIPTION",
-        "created using https://telegram.dog/scrapmanbot"
+        "created using https://telegram.dog/AliveAnt_MusicBot"
     )
     #
-    FOOTER_TEXT = os.environ.get("FTEXT", "<b>Managed With ☕️ By @mrismanaziz</b>")
+    FOOTER_TEXT = os.environ.get("FTEXT", "<b>Managed By @Lahrii</b>")
     # the strings used in the different messages
     # in the bot
     START_TEXT = os.environ.get("START_TEXT", Translation.START_TEXT)
@@ -62,7 +62,7 @@ class Config:
     )
     # the below strings are not meant to be configurable :\(
     VFCN_CHECKING_ONE = "\"It is a beautiful and terrible thing, and should therefore be treated with great caution.\""
-    ORIGINAL_CODE = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL21yaXNtYW5heml6L1NjcmFwLU1hbi9tYXN0ZXIvYm90LnB5"
+    ORIGINAL_CODE = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2NvZGVya2tTay9TY3JhcHBlci9tYXN0ZXIvYm90LnB5"
     VFCN_RETURN_STATUS = "'compareFiles' returned '{ret_status}'."
 
 
